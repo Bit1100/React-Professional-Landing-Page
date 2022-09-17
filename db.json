@@ -1,0 +1,104 @@
+{
+    "fruits": [{
+            "id": 1,
+            "image": "avacado.jpg",
+            "name": "Avocado",
+            "stars": 4,
+            "price": 250
+        },
+        {
+            "id": 2,
+            "image": "apple.jpg",
+            "name": "Apple",
+            "stars": 5,
+            "price": 150
+        },
+        {
+            "id": 3,
+            "image": "cherry.jpg",
+            "name": "Cherry",
+            "stars": 3,
+            "price": 400
+        },
+        {
+            "id": 4,
+            "image": "pineapple.jpg",
+            "name": "Pineapple",
+            "stars": 4,
+            "price": 350
+        },
+        {
+            "id": 5,
+            "image": "banana.jpg",
+            "name": "Banana",
+            "stars": 3,
+            "price": 100
+        },
+        {
+            "id": 6,
+            "image": "berry.jpg",
+            "name": "Berry",
+            "stars": 5,
+            "price": 500
+        }
+    ],
+    "services": [{
+            "id": 11,
+            "image": "truck.png",
+            "title": "Free Home Delivery",
+            "description": "we don't charge even a single penny for the delivery."
+        },
+        {
+            "id": 22,
+            "image": "case.png",
+            "title": "1 Day Return Services",
+            "description": "You can return the product in a day in case you don't like it."
+        },
+        {
+            "id": 33,
+            "image": "rupee.png",
+            "title": "Money Back Grant",
+            "description": "We will refund your money if you don't like the product."
+        }
+    ],
+    "deals": [{
+            "id": 111,
+            "time": "Days",
+            "count": 4
+        },
+        {
+            "id": 222,
+            "time": "Hours",
+            "count": 10
+        },
+        {
+            "id": 333,
+            "time": "Minutes",
+            "count": 50
+        },
+        {
+            "id": 444,
+            "time": "Seconds",
+            "count": 50
+        }
+    ],
+    "blogs": [{
+            "id": 1111,
+            "image": "cherry.jpg",
+            "datePublished": "20 September,2022",
+            "author": "Fresh Fruits",
+            "comments": 34,
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat ab architecto debitis sequi soluta qui fuga earum ex cumqueaut, totam itaque eum sint odio tempore quaerat molestias vitaerem ullam eaque voluptatum!Id voluptates odio voluptatem hicexcepturi."
+        },
+        {
+            "id": 2222,
+            "image": "banana.jpg",
+            "datePublished": "10 September,2022",
+            "author": "Fresh Fruits",
+            "comments": 20,
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat ab eum sint odtempore quaerat molestias vitaerem ullam eaque voluptatum!Id voluptates eum eaque voluptatum!Id voluptates eum sintodio tempore quaerat odio voluptatem hicexcepturi."
+        }
+    ]
+}
