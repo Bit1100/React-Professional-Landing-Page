@@ -30,7 +30,7 @@
                 var decoded = loc.search
                     .slice(1)
                     .split("&")
-                    .map((s) => s.replace("/~and~/g", "&"))
+                    .map((s) => s.replace(/~and~/g, "&"))
                     .join("?");
             }
             window.history.replaceState(
