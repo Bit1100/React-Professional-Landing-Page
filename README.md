@@ -12,7 +12,7 @@ Functional Component with various hooks like useState(), useEffect(), useRef() a
 
 ## Data Fetching
 
-Easily fetched data using json-server npm package, which entirely helps in creating REST API with zero coding.
+Easily fetched data using own github hosted REST API.
 
 ## State Management
 
@@ -35,3 +35,5 @@ Vanilla CSS
 5. Intersection Observer has been introduced.
 
 6. DOM Attributes such as children, firstElementChild, etc. have been injected while dealing with Intersection Observer.
+
+7. Used .env.development and .env.production files for the Code Reusablility and environment determination.
