@@ -30,10 +30,8 @@
             .split("/")
             .slice(pathSegmentsToKeep)
             .join("/")
-            .replace("/&/g", "~and~") +
-            (loc.search ?
-                "&" + loc.search.slice(1).replace("/&/g", "~and~") :
-                "") +
+            .replace(/&/g, "~and~") +
+            (loc.search ? "&" + loc.search.slice(1).replace(/&/g, "~and~") : "") +
             loc.hash
         );
     </script>
