@@ -32,12 +32,12 @@
                     .split("&")
                     .map((s) => s.replace(/~and~/g, "&"))
                     .join("?");
+                window.history.replaceState(
+                    null,
+                    null,
+                    loc.pathname.slice(0, -1) + decoded + loc.hash
+                );
             }
-            window.history.replaceState(
-                null,
-                null,
-                loc.pathname.slice(0, -1) + decoded + loc.hash
-            );
         })(window.location);
     </script>
 </head>
