@@ -11,9 +11,11 @@ const Service = () => {
 
   useEffect(() => {
     const fetchServices = async () => {
-      const response = await axios.get("http://localhost:3001/api/services");
+      const response = await axios.get(
+        `${process.env.REACT_APP_REMOTE_API_BASEURL}/services.json`
+      );
 
-      setServices(response.data);
+      setServices(response.data.services);
     };
 
     fetchServices();

@@ -10,9 +10,11 @@ const Product = () => {
 
   useEffect(() => {
     const fetchFruits = async () => {
-      const response = await axios.get("http://localhost:3001/api/fruits");
+      const response = await axios.get(
+        `${process.env.REACT_APP_REMOTE_API_BASEURL}/fruits.json`
+      );
 
-      setFruits(response.data);
+      setFruits(response.data.fruits);
     };
 
     fetchFruits();

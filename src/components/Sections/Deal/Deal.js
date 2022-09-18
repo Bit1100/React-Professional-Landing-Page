@@ -17,9 +17,11 @@ const Deal = () => {
 
   useEffect(() => {
     const fetchDeals = async () => {
-      const response = await axios.get("http://localhost:3001/api/deals");
-
-      setDeals(response.data);
+      const response = await axios.get(
+        `${process.env.REACT_APP_REMOTE_API_BASEURL}/deals.json`
+      );
+      console.log(process.env.REMOTE_API_BASEURL);
+      setDeals(response.data.deals);
     };
 
     fetchDeals();
